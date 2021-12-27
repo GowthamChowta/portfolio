@@ -11,6 +11,9 @@
     --sans: Oxygen, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
 
 body{
     font-family: var(--sans);
@@ -19,6 +22,7 @@ body{
     padding: 0;
     margin: 0;
     font-size: var(--font-size);
+    
 }
 
 h1,h2,h3{
@@ -290,3 +294,6 @@ article.right img{
     justify-content: space-between;
 }
 
+#profile-picture{
+    width: 90%;
+}
